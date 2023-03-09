@@ -1,5 +1,5 @@
 package fr.fms.mvc;
 
-public class View {
+public class Model {
 
 }
