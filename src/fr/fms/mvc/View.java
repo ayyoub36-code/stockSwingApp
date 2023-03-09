@@ -1,5 +1,12 @@
 package fr.fms.mvc;
 
-public class View {
+import java.lang.ModuleLayer.Controller;
 
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+
+public class View {
+    
 }
