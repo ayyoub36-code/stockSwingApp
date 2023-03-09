@@ -1,7 +1,5 @@
 package fr.fms.mvc;
 
-import java.lang.ModuleLayer.Controller;
-
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTable;

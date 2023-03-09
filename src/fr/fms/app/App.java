@@ -1,12 +1,5 @@
 package fr.fms.app;
 
-import java.sql.Connection;
-
-import javax.swing.SwingUtilities;
-
-import fr.fms.bdd.BddConnection;
-import fr.fms.mvc.View;
-
 public class App {
 
 	public static void main(String[] args) {
@@ -16,4 +9,5 @@ public class App {
 		// produits => aurore
 		// TODO bdd connection => singleton => françois
 
+	}
 }
