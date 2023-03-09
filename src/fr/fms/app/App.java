@@ -10,5 +10,4 @@ public class App {
 		// TODO bdd connection => singleton => françois
 
 	}
-
 }
