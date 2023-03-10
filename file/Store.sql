@@ -9,12 +9,12 @@ USE Store;
 -- - Construction de la table des articles                                   ---
 -- -----------------------------------------------------------------------------
 CREATE TABLE T_Articles (
-	IdArticle				int(4)		PRIMARY KEY AUTO_INCREMENT,
-	Description				varchar(30)	NOT NULL,
-	Brand					varchar(30)	NOT NULL,
-	Price			float(8)	NOT NULL DEFAULT 0,
-	Category				varchar(30)	NOT NULL,
-	Quantity                int(4)
+	IdArticle				int(4)				PRIMARY KEY AUTO_INCREMENT,
+	Description				varchar(30)			NOT NULL,
+	Brand					varchar(30)			NOT NULL,
+	Price					float(8)			NOT NULL DEFAULT 0,
+	Category				varchar(30)			NOT NULL,
+	Quantity                int(4)				NOT NULL
 ) ENGINE = InnoDB;
 
 INSERT INTO T_Articles ( Description, Brand, Price , Category , Quantity ) VALUES ( 'S9','Samsung', 250, 'SmartPhone', 10 );

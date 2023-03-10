@@ -9,5 +9,6 @@ public class App {
 		// produits => aurore
 		// TODO bdd connection => singleton => françois
 
+		
 	}
 }
