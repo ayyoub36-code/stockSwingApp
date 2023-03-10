@@ -1,7 +1,6 @@
 package fr.fms.mvc;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -20,9 +19,8 @@ public class Model extends AbstractTableModel {
 	private ArrayList<Product> products = new ProductDao().readAll();
 
 	public Model(Product... products) {
-
-		// this.setValueAt(products, getRowCount(), getColumnCount());
-		this.products.addAll(Arrays.asList(products));
+		this.setValueAt(products, getRowCount(), getColumnCount());
+		// this.products.addAll(Arrays.asList(products));
 		System.out.println("model");
 	}
 

@@ -18,7 +18,7 @@ public class View {
 		// JButton and JTable
 		JButton showDataButton = new JButton("Charger la table des produits");
 		JTable table = new JTable();
-
+		System.out.println("view call");
 		// ArrayList<Product> products;
 		// table model
 		AbstractTableModel model = new Model();
